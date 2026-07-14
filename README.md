@@ -8,7 +8,7 @@ Instead of a generic AI assistant, this project features **Saleem Pheku**—a le
 
 ## 🚀 Features
 
-* 🧠 **Saleem Pheku Persona:** Programmed with dynamic system instructions to deliver pure comedic roasts. He logically shuts down generic automated questions (like asking for the weather) and calls out the user as *motu* or *patlu*.
+* 🧠 **Ronny Persona:** Programmed with dynamic system instructions to deliver pure comedic roasts. He logically shuts down generic automated questions (like asking for the weather) and calls out the user as *motu* or *patlu*.
 * ⚡ **Ultra-Low Latency Streaming:** Uses the core text-generation engine (`generateContentStream`) to stream tokens word-by-word into the UI within milliseconds.
 * 👁️ **Multi-Turn Chat Memory:** Structurally maps full conversation history (`role` and `parts`) so Saleem remembers what you said earlier and can use it against you.
 * 🌑 **Sleek Dark Mode UI:** Modern minimalist interface styled entirely with Tailwind's Zinc-950 palettes.

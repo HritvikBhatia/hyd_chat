@@ -117,7 +117,7 @@ export default function Chat() {
                 <span className={`text-[10px] md:text-xs block mb-1 font-bold tracking-wider ${
                   m.role === 'user' ? 'text-indigo-200' : 'text-amber-400'
                 }`}>
-                  {m.role === 'user' ? 'You' : 'Saleem Pheku'}
+                  {m.role === 'user' ? 'You' : 'Ronny'}
                 </span>
                 <p className="whitespace-pre-wrap text-sm leading-relaxed wrap-break-word">{m.text}</p>
               </div>
@@ -127,7 +127,7 @@ export default function Chat() {
         
         {isLoading && !messages[messages.length - 1]?.text && (
           <div className="text-xs text-zinc-500 animate-pulse pl-2 font-mono">
-            Saleem Pheku is typing...
+            Ronny is typing...
           </div>
         )}
         
@@ -138,7 +138,7 @@ export default function Chat() {
         <input
           className="flex-1 p-2 bg-transparent outline-none text-zinc-100 placeholder-zinc-500 text-sm min-w-0"
           value={input}
-          placeholder="Talk to Saleem..."
+          placeholder="Talk to Ronny..."
           onChange={e => setInput(e.target.value)}
           disabled={isLoading}
         />
