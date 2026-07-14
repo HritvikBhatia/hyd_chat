@@ -80,7 +80,7 @@ export default function Chat() {
   return (
     <div className="flex flex-col w-full max-w-2xl mx-auto h-screen justify-between p-4 bg-zinc-950 text-zinc-100">
       <header className="py-4 border-b border-zinc-800">
-        <h1 className="text-2xl font-bold text-center tracking-wide text-indigo-400">💬 Hyderabad Group</h1>
+        <h1 className="text-2xl font-bold text-center tracking-wide text-indigo-400">Hyderabad Group</h1>
       </header>
 
       <div className="flex-1 overflow-y-auto my-4 space-y-4 p-2">
