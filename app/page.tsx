@@ -102,7 +102,7 @@ export default function Chat() {
       <div className="flex-1 overflow-y-auto my-3 space-y-4 px-1 py-2 scrollbar-none">
         {messages.length === 0 && (
           <p className="text-zinc-500 text-center mt-10 text-xs md:text-sm italic">
-            Saleem Pheku is online. Go ahead, talk to him.
+            Me online hoo be haule!! Pooch bindaas 😎.
           </p>
         )}
 
